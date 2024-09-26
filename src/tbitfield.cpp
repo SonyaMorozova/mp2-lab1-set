@@ -150,7 +150,7 @@ TBitField TBitField::operator&(const TBitField& bf) // операция "и"
     return TBitField(0);
 }
 
-TBitField TBitField::operator~(void) // отрицание
+TBitField TBitField::operator~(void) // отрицаниее
 {
     TBitField res(BitLen);
     for (int i = 0; i < BitLen; i++) 
@@ -162,7 +162,7 @@ TBitField TBitField::operator~(void) // отрицание
 
 istream& operator>>(istream& istr, TBitField& bf) // ввод
 {
-   
+
     return istr;
 }
 
